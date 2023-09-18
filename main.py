@@ -20,6 +20,7 @@ banner = """
     当前模块数: 6
 """
 
+print(banner)
 cengshu = input('Please enter the number of layers you want to "tao"> ')
 if(cengshu.isdigit()):
     secret_text = input('Please enter the flag you want to set> ').encode()
